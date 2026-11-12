@@ -1,0 +1,47 @@
+✔ Catalog four unique complete rooms (2.745355ms)
+✔ F1 exact capacity included (0.457496ms)
+✔ F1 insufficient capacity excluded (0.330458ms)
+✔ F2 ALL equipment required (1.629258ms)
+✔ F2 partial equipment excluded (0.472474ms)
+✔ F2 empty equipment returns capacity matches (0.335117ms)
+✔ F3 blocked room unavailable (0.858125ms)
+✔ F4 empty clears selection and result (1.765773ms)
+✔ F5 integration switching uses chosen room bookings (0.571239ms)
+✔ F5 integration filters reset selection (0.445323ms)
+✔ Invalid attendees rejected (0.660796ms)
+✔ Room and nested booking data frozen (0.66815ms)
+✔ Missing times return explanatory reason (0.308848ms)
+✔ Missing room is unavailable (0.315851ms)
+✔ One minute after now allowed with no conflict (0.260878ms)
+✔ final T01 touches booking end (3.923359ms)
+✔ final T02 starts exactly now (0.298899ms)
+✔ final T03 zero duration (0.523626ms)
+✔ final T04 reversed interval (0.320139ms)
+✔ final T05 beyond day end (0.362498ms)
+✔ final T06 exactly 120 minutes (0.262541ms)
+✔ final T07 121 minutes (0.359272ms)
+✔ final T08 touches booking start (0.301794ms)
+✔ final T09 partial overlap (0.448839ms)
+✔ final T10 contains booking (0.511958ms)
+✔ final T11 inside booking (1.947633ms)
+✔ final T12 identical booking (0.228778ms)
+✔ final T13 blocked room (0.118933ms)
+✔ final T14 no bookings (0.117129ms)
+✔ final Extra 1 exact 120 later (0.108793ms)
+✔ final Extra 2 gap between bookings (0.227566ms)
+✔ final AC5 repeated checks preserve bookings (0.436868ms)
+✔ HTTP final page exposes live feedback (68.273132ms)
+(node:14) ExperimentalWarning: stripTypeScriptTypes is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ HTTP TypeScript validation served as JavaScript (109.124071ms)
+✔ HTTP UI recomputes on selection changes (9.915538ms)
+✔ HTTP stylesheet includes mobile breakpoint (6.043826ms)
+✔ HTTP unknown route returns 404 (2.901007ms)
+ℹ tests 37
+ℹ suites 0
+ℹ pass 37
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 546.060488

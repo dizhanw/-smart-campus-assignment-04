@@ -1,0 +1,1 @@
+digraph G { graph [rankdir=LR,bgcolor="white",pad="0.15"]; node [shape=box,style="rounded,filled",fillcolor="#F1F4F6",fontname="DejaVu Sans",fontsize=12]; app [label="app.ts\nOne-room fixture + DOM"]; rules [label="validation.ts\ncheckAvailability + preview"]; app -> rules; }

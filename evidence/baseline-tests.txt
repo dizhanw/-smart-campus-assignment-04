@@ -1,0 +1,25 @@
+✔ baseline T01 touches booking end (15.324702ms)
+✔ baseline T02 starts exactly now (0.46252ms)
+✔ baseline T03 zero duration (0.198492ms)
+✔ baseline T04 reversed interval (0.752688ms)
+✔ baseline T05 beyond day end (0.386764ms)
+✔ baseline T06 exactly 120 minutes (0.192852ms)
+✔ baseline T07 121 minutes (2.655543ms)
+✔ baseline T08 touches booking start (1.493965ms)
+✔ baseline T09 partial overlap (1.016783ms)
+✔ baseline T10 contains booking (6.321729ms)
+✔ baseline T11 inside booking (0.271989ms)
+✔ baseline T12 identical booking (0.805797ms)
+✔ baseline T13 blocked room (0.123722ms)
+✔ baseline T14 no bookings (0.123361ms)
+✔ baseline Extra 1 exact 120 later (0.206596ms)
+✔ baseline Extra 2 gap between bookings (1.440364ms)
+✔ baseline AC5 repeated checks preserve bookings (0.515795ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 947.110858
