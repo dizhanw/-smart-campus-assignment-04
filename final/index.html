@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Smart Campus Room Checker</title><link rel="stylesheet" href="/style.css"><script type="module" src="/src/app.ts"></script></head>
+<body><main><p class="eyebrow">SMART CAMPUS</p><h1>Find a room for your plans</h1><p>Fictional campus bookings for one demo day. Current time is fixed at <strong>09:00</strong>. Start must be strictly after 09:00. Maximum duration: 120 minutes.</p>
+<form id="search-form"><div class="fields"><label>Attendees<input id="attendees" type="number" min="1" step="1" value="4" required></label><label>Start time<input id="start" type="time" value="11:00" required></label><label>End time<input id="end" type="time" value="12:00" required></label></div>
+<fieldset><legend>Required equipment</legend><label><input type="checkbox" value="Whiteboard"> Whiteboard</label><label><input type="checkbox" value="Projector"> Projector</label><label><input type="checkbox" value="Computers"> Computers</label><label><input type="checkbox" value="Microphone"> Microphone</label></fieldset>
+<label>Matching room<select id="room"></select></label><button type="submit">Check availability</button></form>
+<p id="room-detail"></p><p id="feedback" role="status" aria-live="polite"></p><p class="note">Checks never create or change a booking. Blocked rooms remain listed when their facilities match, with their status clearly marked.</p></main></body></html>
